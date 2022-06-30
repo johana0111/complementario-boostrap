@@ -1,0 +1,54 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+#botonera{
+	background-color: #352728;
+}
+#botonera img{
+	width: 150px;
+}
+#botonera ul li a {
+	color: #d3b895;
+}
+#botonera ul li a:hover {
+	color: #d3b895;
+	background-color: #385258 ;		
+	transition: background-color 1s;
+}
+.banner{
+	width: 100%;
+}
+
+/*--============== colores de contenedores ==============--*/
+.bg-brown{
+	background-color: #352728;
+	color: white;
+}
+.bg-li-brown{
+	background-color: #d3b895;
+}
+
+/*--============== textos ==============--*/
+
+.textoComun {
+	font-family: 'Roboto', sans-serif;
+	color: #352728;
+	}
+
+.textoDestacado{
+	font-family: 'Roboto', sans-serif;
+	color: #352728;
+	font-weight: bold;
+	}
+
+.titulos{
+	font-family: 'DM Serif Display', serif;
+	color: #4d7a81;
+}
+
+/*--============== imagenes ==============--*/
+
+.chico{
+	width: 3%;
+}
