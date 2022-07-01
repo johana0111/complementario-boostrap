@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Coffee House</title>
   </head>
-  <body>
+  <body >
     <!-- nav-->
     <nav class="navbar navbar-expand-md navbar-light " id="botonera">
       <div class="container-fluid">
@@ -43,46 +43,30 @@
       </div>
     </nav>
     <!--ends nav-->
-   <main>
-     <section >
-       <div class="row d-flex justify-content-center">
-         <div class="col-sm-12 col-md-6 col-lg-3">
-           <h2 class=" text-center titulos fs-1  my-4">Cofee House</h2>
-           <img class="w-100 mb-4 " src="../img/cafeteria.jpg" src="fachda de nuestra cafeteria">
-         </div>
-       </div>
-     </section>
-     <section>
-       <div class="row ">
-         <div class="col-sm-12">
-           <h3 class="titulos fs-3 ms-4 mb-4">Sobre nosotros</h3>
-           <p class="textoComun mx-4 mb-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus architecto laborum aliquid veniam, autem, aspernatur minus quaerat dolor voluptatem error magnam provident rerum iste ipsam a dolores nam minima!</p>
-         </div>
-       </div>
-     </section>
-      <section>
-        <div class="row row d-flex justify-content-around">
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <h3 class="titulos fs-3 ms-4 mb-4">Mision</h3>
-            <p class="textoComun mx-4 mb-4"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute.</p>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <h3 class="titulos fs-3 ms-4 mb-4">Vision</h3>
-            <p class="textoComun mx-4 mb-4"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute.</p>
-          </div>
+   <main class="container d-flex justify-content-center my-5">
+     <form class="row w-50">
+        <div class="col-6">
+          <label for="inputName" aria-current="page">Nombre</label>
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="inputName">
         </div>
-      </section>
-      <section class="my-5">
-        <div class="d-flex justify-content-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/xaJYi6KeeHQ?controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-      </section>
-   </main>
+        <div class="col-6">
+          <label for="inputApellido" aria-current="page">Apellido</label>
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" id="inputApellido">
+        </div>
+        <div class="col-12 mb-3">
+          <label for="FormControlInput1" class="form-label textoComun">Email</label>
+          <input type="email" class="form-control" id="FormControlInput1" placeholder="nombre@example.com">
+        </div>
+        <div class=" col-12 mb-3">
+          <label for="textArea" class="form-label textoComun">Mensaje</label>
+          <textarea class="form-control" id="textArea" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+        <button class="btn btn-primary bg-li-brown " type="submit">Enviar</button>
+      </div>
+      </form>
 
+   </main>
 
 
 

@@ -1,6 +1,4 @@
-*{
-	font-family: 'Roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Source+Sans+Pro:wght@600&display=swap');
 
 #botonera{
 	background-color: #352728;
@@ -28,27 +26,45 @@
 .bg-li-brown{
 	background-color: #d3b895;
 }
-
+.cofeeBg{
+	background-image: url("../img/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	opacity: 0.5;
+}
 /*--============== textos ==============--*/
 
 .textoComun {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #352728;
 	}
 
 .textoDestacado{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #352728;
 	font-weight: bold;
 	}
 
 .titulos{
-	font-family: 'DM Serif Display', serif;
+	font-family: 'Arima', cursive;
 	color: #4d7a81;
+	font-weight: bold;
 }
+.titulos2{
+	font-family: 'Arima', cursive;
+	font-weight: bold;
+	color: #352728;
+}
+
 
 /*--============== imagenes ==============--*/
 
 .chico{
 	width: 3%;
+}
+
+.efecto:hover{
+	transform: scale(1.1);
 }
